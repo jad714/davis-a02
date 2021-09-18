@@ -6,7 +6,7 @@
 /* Begin Pseudocode
 *** Instantiate new instance of the Scanner class.
 *** Instantiate new instance of the Solution14 class.
-*** Define variables for order amount, price, subtotal, a constant for Wisconsin's tax, an int flag called isWisconsin, and finalAmount.
+*** Define variables for order amount, price, subtotal, and a constant for Wisconsin's tax.
 *** Prompt user for all inputs.
 *** Call processInputInt method, which accepts no parameters and returns an int result.
 *** Process state in the main method (one short line).
