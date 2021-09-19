@@ -23,12 +23,12 @@ public class Solution17 {
 
     private int processInputInt(){
         String input = userInput.nextLine();
-        return checkOutputInt(input);
+        return this.checkOutputInt(input);
     }
 
     private double processInputDouble(){
         String input = userInput.nextLine();
-        return checkOutputDouble(input);
+        return this.checkOutputDouble(input);
     }
 
     private int checkOutputInt(String input){
@@ -37,7 +37,7 @@ public class Solution17 {
             result = Integer.parseInt(input);
         }
         catch(NumberFormatException e){
-            System.out.print("Incorrect format for input. (Must be int)");
+            System.out.print("Incorrect format for input (must be int). Please run the program again.");
             result = 0;
             System.exit(0);
         }
@@ -50,7 +50,7 @@ public class Solution17 {
             result = Double.parseDouble(input);
         }
         catch(NumberFormatException e){
-            System.out.print("Incorrect format for input. (Must be double)");
+            System.out.print("Incorrect format for input (must be double). Please run the program again.");
             result = 0;
             System.exit(0);
         }
